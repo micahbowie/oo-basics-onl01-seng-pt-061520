@@ -1,4 +1,5 @@
 class Book 
+  attr_accessor :author, :page_count, :genre
   def initialize(book_name)
     @title = book_name
   end 
@@ -6,6 +7,7 @@ class Book
   def title 
     @title
   end 
+  
  
 end 
 
